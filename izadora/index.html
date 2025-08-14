@@ -1,0 +1,138 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Nós Dois 💚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="brand">
+        <img src="./img/favorita.jpg" alt="Logo" onerror="this.style.display='none'">
+        <span>Para Nós Dois</span>
+      </a>
+      <div class="menu">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#historia">Nossa história</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#frases">Frases</a>
+        <a href="#planos">Planos futuros</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hearts" id="hearts"></div>
+
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <div>
+        <div class="kicker">Pra você, meu amor</div>
+        <h1>Você é meu lugar favorito ❤️</h1>
+        <p>Te gosto minha Maluquinha.</p>
+        <a class="cta" href="#historia">Nossa história</a>
+      </div>
+      <div class="photo-card" title="Nossa foto favorita"></div>
+    </div>
+  </header>
+
+  <section id="historia">
+    <div class="card">
+      <h2 class="section-title">Nossa história</h2>
+      <p class="muted">Alguns dos momentos que fizeram a gente ser quem somos hoje.</p>
+      <div class="timeline">
+        <!-- Itens da linha do tempo -->
+           <p>Demos match no tinder</p>
+          <p>Começamos a conversar</p>
+          <p>Vc deu a ideia de vir me ver</p>
+          <p>Veio  me ver</p>
+          <p>Passamos 2 final de semanas juntos incriveis</p>
+          <p>No terceiro tivemos nossas primeira brigas</p>
+          <p>Passamos nosso primeiro final de semana sem se ver des que nos conhecemos</p>
+          <p>FUTURO  DIRA</p>
+         
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="card">
+      <h2 class="section-title">Galeria</h2>
+      <p class="muted">Nossos sorrisos guardados em fotos.</p>
+      <div class="gallery" id="gallery">
+        <!-- Fotos aqui -->
+             <img src="./img/favorita.jpg" alt="">
+         <img src="./img/favorita2.jpg" alt="">
+         <img src="./img/favorita3.jpg" alt="">
+         <img src="./img/favorita4.webp" alt="">
+         <img src="./img/favorita5.webp" alt="">
+         <img src="./img/favorita6.webp" alt="">
+         <img src="./img/favorita7.jpg" alt="">
+         <img src="./img/favorita8.jpg" alt="">
+         <img src="./img/favorita9.jpg" alt="">
+         <img src="./img/favorita10.jpg" alt="">
+         <img src="./img/favorita11.jpg" alt="">
+         <img src="./img/favorita12.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <img id="lightboxImg" src="" alt="foto ampliada">
+  </div>
+
+  <section id="frases">
+    <div class="card">
+      <h2 class="section-title">Frases & declarações</h2>
+      <div class="quotes" id="quotes">
+        <!-- Frases aqui -->
+         
+         <p>Meu amor, Quero que você saiba o quanto você significa para mim. Cada momento ao seu lado é especial e faz meu mundo mais bonito. Seu sorriso ilumina meus dias, seu abraço me dá paz, e sua presença transforma tudo ao meu redor.
+Eu te admiro por quem você é, por sua bondade, seu carinho e sua força. Quero estar sempre ao seu lado, apoiando você, celebrando suas conquistas e enfrentando qualquer desafio juntos.
+Você é a pessoa que escolhi para caminhar ao meu lado, hoje e sempre. Te amo mais do que palavras podem expressar, e cada dia ao seu lado só confirma que você é a melhor parte da minha vida.   Te gosto</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="card">
+      <h2 class="section-title">Planos futuros</h2>
+      <div class="plans" id="plans">
+        <div class="plan">
+          <input type="checkbox" id="plan1" data-weight="1">
+          <label for="plan1">Viajar juntos para algum lugar</label>
+        </div>
+        <div class="plan">
+          <input type="checkbox" id="plan2" data-weight="1">
+          <label for="plan2">Fazer um jantar especial</label>
+        </div>
+        <div class="plan">
+          <input type="checkbox" id="plan3" data-weight="1">
+          <label for="plan3">Ver um show juntos</label>
+        </div>
+        <div class="plan">
+          <input type="checkbox" id="plan4" data-weight="1">
+          <label for="plan4">Nossa primaeira vez</label>
+        </div>
+        <div class="plan">
+          <input type="checkbox" id="plan5" data-weight="1">
+          <label for="plan5">Pintar bobbie goods juntos</label>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="progress-label"><span>Progresso</span><span id="progressText">0%</span></div>
+    </div>
+  </section>
+
+  <footer>
+    Feito com <span class="heart">❤</span> por <strong>Maluquinho</strong> para <strong>Maluquinha</strong>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
